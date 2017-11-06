@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		621623931FB098EA001ADEA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621623921FB098EA001ADEA6 /* AppDelegate.swift */; };
-		621623951FB098EA001ADEA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621623941FB098EA001ADEA6 /* ViewController.swift */; };
 		621623981FB098EA001ADEA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 621623961FB098EA001ADEA6 /* Main.storyboard */; };
 		6216239A1FB098EA001ADEA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621623991FB098EA001ADEA6 /* Assets.xcassets */; };
 		6216239D1FB098EA001ADEA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6216239B1FB098EA001ADEA6 /* LaunchScreen.storyboard */; };
+		621623A51FB09C23001ADEA6 /* TarefasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621623A41FB09C23001ADEA6 /* TarefasTableViewController.swift */; };
+		621623A71FB0B1BE001ADEA6 /* CadastroTarefaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621623A61FB0B1BE001ADEA6 /* CadastroTarefaViewController.swift */; };
+		621623A91FB0B2ED001ADEA6 /* TarefaUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621623A81FB0B2ED001ADEA6 /* TarefaUserDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6216238F1FB098EA001ADEA6 /* Lista de tarefas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lista de tarefas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		621623921FB098EA001ADEA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		621623941FB098EA001ADEA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		621623971FB098EA001ADEA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		621623991FB098EA001ADEA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6216239C1FB098EA001ADEA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6216239E1FB098EA001ADEA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		621623A41FB09C23001ADEA6 /* TarefasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarefasTableViewController.swift; sourceTree = "<group>"; };
+		621623A61FB0B1BE001ADEA6 /* CadastroTarefaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroTarefaViewController.swift; sourceTree = "<group>"; };
+		621623A81FB0B2ED001ADEA6 /* TarefaUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarefaUserDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				621623921FB098EA001ADEA6 /* AppDelegate.swift */,
-				621623941FB098EA001ADEA6 /* ViewController.swift */,
+				621623A41FB09C23001ADEA6 /* TarefasTableViewController.swift */,
+				621623A81FB0B2ED001ADEA6 /* TarefaUserDefaults.swift */,
+				621623A61FB0B1BE001ADEA6 /* CadastroTarefaViewController.swift */,
 				621623961FB098EA001ADEA6 /* Main.storyboard */,
 				621623991FB098EA001ADEA6 /* Assets.xcassets */,
 				6216239B1FB098EA001ADEA6 /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				621623951FB098EA001ADEA6 /* ViewController.swift in Sources */,
+				621623A71FB0B1BE001ADEA6 /* CadastroTarefaViewController.swift in Sources */,
+				621623A91FB0B2ED001ADEA6 /* TarefaUserDefaults.swift in Sources */,
+				621623A51FB09C23001ADEA6 /* TarefasTableViewController.swift in Sources */,
 				621623931FB098EA001ADEA6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
